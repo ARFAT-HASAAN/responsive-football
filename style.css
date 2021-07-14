@@ -14,9 +14,6 @@ body{box-sizing: border-box;
         margin:0 auto;}
 
 .banner-details{width: 40%;}
-.banner-picture{width: 40%;}
-        
-        
 .banner-title{font-size: 64px;
               font-weight: 700;
               color: white;
@@ -24,7 +21,6 @@ body{box-sizing: border-box;
               margin-bottom: 25px; 
               transition: font 2s ease;
               cursor: pointer;
-              
               }
  .banner-title:hover{font-size: 70px;  ;}             
             
@@ -37,6 +33,11 @@ body{box-sizing: border-box;
 
 .live-btn .fa-arrow-right{margin-left:7px;
                          font-size: 16px;}
+
+
+
+.banner-picture{width: 40%;}
+        
 .banner-picture img{width: 100%;}
 
    /* .banner section design for tab and mobile  */
@@ -50,24 +51,24 @@ body{box-sizing: border-box;
 
 .banner-details{width: 100%;
                 margin:0 0 30px 20px;}
-.banner-picture{width: 100%;}
-
 .banner-title{font-size: 50px;
               font-weight: 900;
               color: white;
               transition: font 2s ease-in-out;
              cursor: pointer;}
-             .banner-title:hover{font-size: 55px;  ;}  }
+             .banner-title:hover{font-size: 55px;  ;}  
             
 .live-btn{ text-align: center;
            text-decoration: none;
           background-color: deeppink;
           color: white;
           font-size: 14px;
-          padding: auto 22px;}}
+          padding: auto 22px;}
 
-   .live-btn .fa-arrow-right{margin-left: 7px;
+.live-btn .fa-arrow-right{margin-left: 7px;
                              font-size: 12px;}
+
+.banner-picture{width: 100%;}}
 
 
 
@@ -98,7 +99,8 @@ body{box-sizing: border-box;
              margin:11px 0px ;}
 .player-card p{line-height: 25px;
                font-family: 'Nunito Sans', sans-serif;
-               color: rgb(143, 140, 140);}                             
+               color: rgb(143, 140, 140);
+                }                             
 .player-card img{width: 100%;}
 
 /* ------------------------
@@ -129,6 +131,61 @@ player seciton design for mobile decice
                       grid-column-gap:20px;
                       grid-row-gap: 30px;}
 }
+
+/* match container design star from here  */
+.match-container{width: 80%;
+                 display: flex;
+                 flex-direction: row;
+                 margin: 0 auto;
+                 
+                }
+.match-detail{width: 1000px;
+              
+              margin: 50px 20px 20px 0px;}
+.match-title{font-size: 45px;
+              margin: 11px 0px;
+               font-weight:bolder;}
+.match-detail p{line-height: 25px;
+                color: rgb(143, 140, 140);
+                margin-bottom: 25px;
+                 }
+
+.match-thumnail img{width: 100%;}
+
+/*----------------------------
+ match container design for tab
+ ------------------------------  */
+
+@media  screen and (max-width:992px){
+
+.match-container{width: 80%;
+                 display: flex;
+                 flex-direction: column;
+                 margin: 0 auto;}
+
+.match-detail{width:100%; 
+              margin: 50px 20px 20px 0px;}
+ .match-thumnail{margin-top: 20px;}
+
+}
+
+/*----------------------------
+ match container design for mobile
+ ------------------------------  */
+
+ @media  screen and (max-width:688px){
+ .match-container{width: 80%;
+                 display: flex;
+                 flex-direction: column;
+                 margin: 0 auto; 
+                }
+
+ .match-detail{width:100%;  
+              margin: 50px 20px 20px 0px;}
+.match-thumnail{margin-top: 20px;}
+
+ }
+
 
 /*------------------------
  footer design start form here
